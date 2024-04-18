@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[Storybook Sound Tour]]></data>
+  <data name="en_project_author_name"><![CDATA[Storybook Sound]]></data>
+  <data name="en_project_author_url"><![CDATA[http://www.Sites Unlimited/]]></data>
+
+
+
+  <data name="en_pano18_title"><![CDATA[05_FINAL_Studio_SR_open_Logo]]></data>
+  <data name="en_spotpoint29_tooltip"><![CDATA[Studio Entrance]]></data>
+  <data name="en_spotpoint30_tooltip"><![CDATA[Iso Room]]></data>
+
+
+  <data name="en_pano16_title"><![CDATA[04_FINAL_Studio_Entrance_4]]></data>
+  <data name="en_spotpoint27_tooltip"><![CDATA[To the Bar & Lounge]]></data>
+  <data name="en_spotpoint28_tooltip"><![CDATA[Studio]]></data>
+
+
+  <data name="en_pano20_title"><![CDATA[06_FINAL_Soundroom]]></data>
+  <data name="en_spotpoint31_tooltip"><![CDATA[Back to the Studio]]></data>
+
+
+  <data name="en_pano12_title"><![CDATA[02_FINAL_Storybook_Bar]]></data>
+  <data name="en_spotpoint23_tooltip"><![CDATA[Head outside for some fresh air]]></data>
+  <data name="en_spotpoint24_tooltip"><![CDATA[The Studio]]></data>
+  <data name="en_spotpoint25_tooltip"><![CDATA[Chill in the Lounge with Bella the cat]]></data>
+
+
+  <data name="en_pano14_title"><![CDATA[03_FINAL_Lounge]]></data>
+  <data name="en_spotpoint26_tooltip"><![CDATA[Check out the Bar area]]></data>
+
+
+  <data name="en_pano10_title"><![CDATA[01_FINAL_Backyard_Door]]></data>
+  <data name="en_spotpoint22_tooltip"><![CDATA[Back to the Bar & Lounge]]></data>
+
+
+
+
+
+
+  <data name="en_logowebsiteurl"><![CDATA[http://www.Sites Unlimited/studio.html#facilities]]></data>
+  <data name="en_logotooltipText"><![CDATA[Back to Storybook Sound]]></data>
+
+
+  <data name="en_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
+  <data name="en_vr_setup_advanced"><![CDATA[ADVANCED SETTINGS]]></data>
+  <data name="en_vr_setup_title"><![CDATA[WEB VR SETTINGS]]></data>
+  <data name="en_vr_setup_dvn1"><![CDATA[Device:]]></data>
+  <data name="en_vr_setup_siz1"><![CDATA[Screen size:]]></data>
+  <data name="en_vr_setup_ipd1"><![CDATA[IPD:]]></data>
+  <data name="en_vr_setup_hmd1"><![CDATA[HMD:]]></data>
+  <data name="en_vr_setup_hmd3"><![CDATA[Customize]]></data>
+  <data name="en_vr_setup_cal"><![CDATA[Calibrate gyroscope]]></data>
+  <data name="en_vr_setup_sav"><![CDATA[SAVE]]></data>
+  <data name="en_vr_setup_rst"><![CDATA[RESET]]></data>
+  <data name="en_vr_setup_simple"><![CDATA[SIMPLE]]></data>
+  <data name="en_vr_setup_cls"><![CDATA[CLOSE]]></data>
+  <data name="en_vr_setup_m31"><![CDATA[HMD SETTINGS]]></data>
+  <data name="en_vr_setup_fov1"><![CDATA[FOV:]]></data>
+  <data name="en_vr_setup_dst1"><![CDATA[Distortion:]]></data>
+  <data name="en_vr_setup_d2tx"><![CDATA[Distortion 2:]]></data>
+  <data name="en_vr_setup_vig1"><![CDATA[Vignette:]]></data>
+  <data name="en_vr_setup_cac1"><![CDATA[Chromatic aberration:]]></data>
+  <data name="en_vr_setup_olp1"><![CDATA[Overlap:]]></data>
+  <data name="en_vr_setup_m35"><![CDATA[RETURN]]></data>
+  <data name="en_vr_setup_cb1"><![CDATA[GYROSCOPE]]></data>
+  <data name="en_vr_setup_cb2"><![CDATA[Place the device on a flat and[br]stable surface and tab CALIBRATE[br]to correct a gyroscope drifting.]]></data>
+  <data name="en_vr_setup_cb3"><![CDATA[CALIBRATE]]></data>
+  <data name="en_vr_setup_cb4"><![CDATA[RESET]]></data>
+  <data name="en_vr_setup_cb5"><![CDATA[RETURN]]></data>
+  <data name="en_vr_setup_cb6"><![CDATA[Calibrating...]]></data>
+  <data name="en_vr_setup_cb7"><![CDATA[Successful calibration]]></data>
+  <data name="en_vr_setup_cb8"><![CDATA[Calibration failed]]></data>
+  <data name="en_vr_setup_unavailable"><![CDATA[VR mode[br]is unavailable on your device]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

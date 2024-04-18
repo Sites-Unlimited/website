@@ -1,0 +1,373 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h4,
+h5 {
+  text-align: center;
+}
+
+/* Colors */
+:root {
+  --brand-primary: #7766cc;
+  --brand-secondary: #ebeb55;
+  --brand-primary-dark: #443399;
+  --brand-primary-light: #aa99ff;
+  --black: #222;
+  --dark: #444;
+  --white: #eee;
+  --light: #bbb;
+}
+
+.bg-brand-dark {
+  background-color: var(--brand-primary-dark);
+}
+
+.white {
+  background-color: var(--white);
+}
+
+.light {
+  background-color: var(--light);
+}
+
+.card.red {
+  border: 2px solid var(--earth);
+}
+
+.card.gold {
+  border: 2px solid var(--fire);
+}
+
+.card.teal {
+  border: 2px solid var(--water);
+}
+
+.card.green {
+  border: 2px solid var(--plant);
+}
+
+.card.blue {
+  border: 2px solid var(--sky);
+}
+
+.card.azure {
+  border: 2px solid var(--air);
+}
+
+.card.light {
+  border: 2px solid var(--light);
+}
+
+header,
+footer {
+  background-color: var(--brand-primary);
+}
+
+a {
+  color: var(--black);
+}
+
+a:hover {
+  color: var(--dark);
+}
+
+/* Typography */
+
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  text-align: left;
+}
+
+p:last-of-type {
+  margin-bottom: 2em;
+}
+
+blockquote {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+cite {
+  float: right;
+}
+
+
+
+/* Header */
+header,
+footer,
+main {
+  padding: 0.5em;
+}
+
+main {
+  padding-top: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  min-height: 60px;
+  width: 100%;
+}
+
+.brand {
+  margin: auto;
+  max-width: 500px;
+}
+
+header h2,
+header h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.site-logo svg {
+  margin: auto;
+}
+
+/* Nav */
+
+.menuItem {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+.hamburger {
+  position: absolute;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+i.closeIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: -10px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: var(--light);
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+nav {
+  width: 100%;
+}
+
+/* Footer */
+footer P {
+  text-align: center;
+}
+
+
+/* Main */
+main {
+  margin: 0.5em auto;
+  min-height: 500px;
+}
+
+.standard main,
+.full-width main p,
+.full-width main .narrow,
+.standard main h1,
+.standard main h2,
+.standard main h3,
+.standard main h4,
+.full-width main h1,
+.full-width main h2,
+.full-width main h3,
+.full-width main h4 {
+  max-width: 55rem;
+  margin: 1.4em auto;
+}
+
+.full-width main h3 {
+  margin-top: 1.4em;
+  margin-bottom: -0.4em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main ul {
+  margin-top: 1.5em;
+}
+
+
+/* Global */
+img[src$=".svg"] {
+  max-width: 100%;
+}
+
+p img {
+  margin: 0 1em;
+}
+
+.alignleft {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.alignright {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+.circular--portrait {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.portraits .circular--portrait {
+  margin: auto;
+}
+
+
+
+/* Hero */
+#hero {
+  margin: 0;
+  height: 500px;
+  padding: 0.2em;
+  position: relative;
+}
+
+#hero blockquote {
+  font-size: 1.5em;
+  background-color: #C2756Ccc;
+  padding: 0.3em;
+  color: var(--white);
+  margin: auto;
+  position: absolute;
+  bottom: 12%;
+  left: 60%;
+  max-width: 700px;
+}
+
+
+.frontpage {
+  background: #999999 url("../images/Studio-Pano-noise-removed-scaled.jpg") no-repeat center center / cover;
+}
+
+/* Responsive Grid */
+
+section {
+  border: #999 1px solid 0;
+  margin: 1em auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.col {
+  min-width: 400px;
+  max-width: 33%;
+  /* Can specify additional sizes if needed */
+}
+
+.card {
+  margin: 1em;
+  border-radius: 10px;
+  padding-bottom: 1em;
+}
+
+.card .body {
+  width: 100%;
+  padding: 1em;
+}
+
+.thirty {
+  width: 30%;
+}
+
+.owlonly.owlonly {
+  height: auto;
+  max-width: 160px;
+}
+
+.catonly.catonly {
+  height: auto;
+  max-width: 220px;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 600px) {
+  nav .menu {
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+    justify-content: space-around;
+    padding: 0;
+    position: relative;
+    transform: none;
+    transition: none;
+    z-index: 0;
+    background: none;
+    list-style: none;
+    padding-top: 0;
+    top: 0;
+    margin-top: 1.5em;
+    margin-bottom: 0.2em;
+  }
+
+  nav .menuItem {
+    display: inline-block;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}

@@ -1,0 +1,5 @@
+url: "https://sitesunlimited.com" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
+markdown: kramdown
+exclude: [vendor]
