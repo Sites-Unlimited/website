@@ -15,12 +15,13 @@ h5 {
 
 /* Colors */
 :root {
-  --brand-primary: #7766cc;
+  --brand-primary: #441166;
   --brand-secondary: #ebeb55;
   --brand-primary-dark: #443399;
-  --brand-primary-light: #aa99ff;
-  --black: #222;
-  --dark: #444;
+  --brand-primary-light: #917093;
+  --black: #3D2C3E;
+  --dark: #685B69;
+  --gray: #685B69;
   --white: #eee;
   --light: #bbb;
 }
@@ -76,6 +77,16 @@ a {
 
 a:hover {
   color: var(--dark);
+}
+
+/* Navigation */
+
+header nav a {
+  color: var(--white);
+}
+
+header nav a:hover {
+  color: var(--light);
 }
 
 /* Typography */
