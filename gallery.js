@@ -1,5 +1,5 @@
 import {choc, set_content, on, DOM, fix_dialogs} from "https://rosuav.github.io/choc/factory.js";
-const {DIV, IMG, H1, H2, H3, H4, A, DIALOG, FIGURE, FIGCAPTION, BUTTON, P, SECTION, UL, LI, SPAN, BLOCKQUOTE} = choc; //autoimport
+const {BLOCKQUOTE, BUTTON, DIALOG, DIV, FIGCAPTION, FIGURE, H2, H3, LI, P, SECTION, UL} = choc; //autoimport
 
 let selected_item = 0;
 let selected_set = 0;
@@ -33,12 +33,13 @@ function gallery_image(item) {
   set_content("#gallery",
     sets.map((set, idx )=> galleries[set] && SECTION({'data-set': idx}, [
       H2(set.replace(/_/g, " ")),
-      DIV({class: "gallery_set"}, galleries[set].map((item, idx) => item.image &&
+      P(galleries[set].description),
+      DIV({class: "gallery_set"}, galleries[set].photos.map((item, idx) => item.image &&
         DIV(
           {"data-idx": idx, class: "gallery_entry"},
           item.caption ? FIGURE([gallery_image(item), FIGCAPTION(item.caption)]) : gallery_image(item)
         ))),
-      P(UL(galleries[set].map((item, idx) => !item.image &&
+      P(UL(galleries[set].photos.map((item, idx) => !item.image &&
         LI([
           item.notes && BLOCKQUOTE(item.notes),
         ]))))
@@ -49,7 +50,7 @@ function gallery_image(item) {
 function display_item(set, idx) {
   selected_item = +idx; // cast as number
   selected_set = +set;
-  const item = galleries[sets[set]][idx];
+  const item = galleries[sets[set]].photos[idx];
   console.log(item);
   DOM("#gallerydlg .gallery-image").replaceWith(gallery_image(item));
   set_content("#gallerydlg figcaption", [

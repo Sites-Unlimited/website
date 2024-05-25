@@ -275,6 +275,7 @@ p img {
 
 figcaption {
   text-align: center;
+  display: none;
 }
 
 .portraits .circular--portrait {

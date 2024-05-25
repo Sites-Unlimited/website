@@ -1,3 +1,5 @@
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nunc sit amet libero ultrices."
+photos:
 - caption: >-
     Mom, Daughter, Horse
   image:
@@ -9,7 +11,7 @@
     url: images/portfolio/family_portraits/DMA_5620.jpg
     title: ''
 - caption: >-
-
+    Family Portrait
   image:
     url: images/portfolio/family_portraits/DMA_8817.jpg
     title: ''

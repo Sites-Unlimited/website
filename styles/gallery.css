@@ -58,6 +58,7 @@
 
 #gallerydlg figcaption {
   flex-shrink: 1;
+  display: none;
 }
 
 #gallerydlg figcaption h4 {
