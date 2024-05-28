@@ -203,8 +203,17 @@ nav {
 }
 
 /* Footer */
-footer P {
+footer p {
   text-align: center;
+  color: var(--white);
+}
+
+footer a {
+  color: var(--white);
+}
+
+footer a:hover {
+  color: var(--brand-secondary);
 }
 
 
