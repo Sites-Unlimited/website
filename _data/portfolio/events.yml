@@ -1,7 +1,42 @@
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nunc sit amet libero ultrices."
 photos:
 - caption: >-
-    Mom, Daughter, Horse
+    Event Portfolio Image
   image:
-    url: images/portfolio/family_portraits/DMA_5587.jpg
-    title: 'Mom, Daughter, Horse'
+    url: images/portfolio/events/2F32618A-4190-42B2-B076-422E8D3AED0F.jpg
+    title: 'Event Portfolio Image'
+- caption: >-
+    Event Portfolio Image
+  image:
+    url: images/portfolio/events/5FE06F8D-C1B4-4647-A1F7-C0ED5E217595.jpg
+    title: 'Event Portfolio Image'
+- caption: >-
+    Event Portfolio Image
+  image:
+    url: images/portfolio/events/DMA_6461.jpg
+    title: 'Event Portfolio Image'
+- caption: >-
+    Event Portfolio Image
+  image:
+    url: images/portfolio/events/DMA_8457-2.jpg
+    title: 'Event Portfolio Image'
+- caption: >-
+    Event Portfolio Image
+  image:
+    url: images/portfolio/events/DMA_8511.jpg
+    title: 'Event Portfolio Image'
+- caption: >-
+    Event Portfolio Image
+  image:
+    url: images/portfolio/events/DMA_8605.jpg
+    title: 'Event Portfolio Image'
+- caption: >-
+    Event Portfolio Image
+  image:
+    url: images/portfolio/events/KN1A5166.jpg
+    title: 'Event Portfolio Image'
+- caption: >-
+    Event Portfolio Image
+  image:
+    url: images/portfolio/events/KN1A5195.jpg
+    title: 'Event Portfolio Image'

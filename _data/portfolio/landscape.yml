@@ -1,7 +1,42 @@
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nunc sit amet libero ultrices."
 photos:
 - caption: >-
-    Mom, Daughter, Horse
+    Landscape Portfolio Image
   image:
-    url: images/portfolio/family_portraits/DMA_5587.jpg
-    title: 'Mom, Daughter, Horse'
+    url: images/portfolio/landscape/DMA_3547.jpg
+    title: 'Landscape Portfolio Image'
+- caption: >-
+    Landscape Portfolio Image
+  image:
+    url: images/portfolio/landscape/KN1A3963.jpg
+    title: 'Landscape Portfolio Image'
+- caption: >-
+    Landscape Portfolio Image
+  image:
+    url: images/portfolio/landscape/KN1A9395.jpg
+    title: 'Landscape Portfolio Image'
+- caption: >-
+    Landscape Portfolio Image
+  image:
+    url: images/portfolio/landscape/KN1A9547.jpg
+    title: 'Landscape Portfolio Image'
+- caption: >-
+    Landscape Portfolio Image
+  image:
+    url: images/portfolio/landscape/KN1A9560.jpg
+    title: 'Landscape Portfolio Image'
+- caption: >-
+    Landscape Portfolio Image
+  image:
+    url: images/portfolio/landscape/KN1A9563.jpg
+    title: 'Landscape Portfolio Image'
+- caption: >-
+    Landscape Portfolio Image
+  image:
+    url: images/portfolio/landscape/KN1A9619.jpg
+    title: 'Landscape Portfolio Image'
+- caption: >-
+    Landscape Portfolio Image
+  image:
+    url: images/portfolio/landscape/KN1A9671.jpg
+    title: 'Landscape Portfolio Image'

@@ -1,17 +1,47 @@
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nunc sit amet libero ultrices."
 photos:
 - caption: >-
-    Mom, Daughter, Horse
+    Family Portrait
   image:
     url: images/portfolio/family_portraits/DMA_5587.jpg
-    title: 'Mom, Daughter, Horse'
+    title: 'Family Portrait'
 - caption: >-
-    Coming soon for sure...
+    Family Portrait
   image:
     url: images/portfolio/family_portraits/DMA_5620.jpg
-    title: ''
+    title: 'Family Portrait'
 - caption: >-
     Family Portrait
   image:
     url: images/portfolio/family_portraits/DMA_8817.jpg
-    title: ''
+    title: 'Family Portrait'
+- caption: >-
+    Family Portrait
+  image:
+    url: images/portfolio/family_portraits/DMA_8830.jpg
+    title: 'Family Portrait'
+- caption: >-
+    Family Portrait
+  image:
+    url: images/portfolio/family_portraits/DMA_9711.jpg
+    title: 'Family Portrait'
+- caption: >-
+    Family Portrait
+  image:
+    url: images/portfolio/family_portraits/DMA_9780.jpg
+    title: 'Family Portrait'
+- caption: >-
+    Family Portrait
+  image:
+    url: images/portfolio/family_portraits/KN1A1361.jpg
+    title: 'Family Portrait'
+- caption: >-
+    Family Portrait
+  image:
+    url: images/portfolio/family_portraits/KN1A7639.jpg
+    title: 'Family Portrait'
+- caption: >-
+    Family Portrait
+  image:
+    url: images/portfolio/family_portraits/KN1A7772.jpg
+    title: 'Family Portrait'

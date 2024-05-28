@@ -1,7 +1,42 @@
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nunc sit amet libero ultrices."
 photos:
 - caption: >-
-    Mom, Daughter, Horse
+    School Portrait Portfolio Image
   image:
-    url: images/portfolio/family_portraits/DMA_5587.jpg
-    title: 'Mom, Daughter, Horse'
+    url: images/portfolio/school_portrait/DMA_0053.jpg
+    title: 'School Portrait Portfolio Image'
+- caption: >-
+    School Portrait Portfolio Image
+  image:
+    url: images/portfolio/school_portrait/DMA_0053.jpg
+    title: 'School Portrait Portfolio Image'
+- caption: >-
+    School Portrait Portfolio Image
+  image:
+    url: images/portfolio/school_portrait/DMA_0581.jpg
+    title: 'School Portrait Portfolio Image'
+- caption: >-
+    School Portrait Portfolio Image
+  image:
+    url: images/portfolio/school_portrait/DMA_7286.jpg
+    title: 'School Portrait Portfolio Image'
+- caption: >-
+    School Portrait Portfolio Image
+  image:
+    url: images/portfolio/school_portrait/DMA_8871.jpg
+    title: 'School Portrait Portfolio Image'
+- caption: >-
+    School Portrait Portfolio Image
+  image:
+    url: images/portfolio/school_portrait/DMA_9703-2.jpg
+    title: 'School Portrait Portfolio Image'
+- caption: >-
+    School Portrait Portfolio Image
+  image:
+    url: images/portfolio/school_portrait/DMA_9957-2.jpg
+    title: 'School Portrait Portfolio Image'
+- caption: >-
+    School Portrait Portfolio Image
+  image:
+    url: images/portfolio/school_portrait/DMA_9980.jpg
+    title: 'School Portrait Portfolio Image'
