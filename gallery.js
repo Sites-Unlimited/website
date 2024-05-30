@@ -9,10 +9,10 @@ sets.sort((a, b) => galleries[a].sequence - galleries[b].sequence); // sort for 
 console.log(sets);
 
 document.body.appendChild(DIALOG({id: "gallerydlg"}, [
-  DIV({id: "dialog_header"}, [
-    DIV([BUTTON({id: "prev"}, "previous"), BUTTON({id: "next"}, "next")]),
-    BUTTON({type: "button", class: "dialog_cancel"}, 'x')]),
-    DIV({class: 'gallery-image'}),
+  DIV({id: "dlgcontent"}, [
+    DIV({id: "dialog_header"}, [BUTTON({type: "button", class: "dialog_cancel"}, 'x')]),
+    DIV({id: "slides_nav"}, [BUTTON({id: "prev"}, "<<"), BUTTON({id: "next"}, ">>")]),
+    DIV({class: 'gallery-image'})]),
 ]));
 
 // Support for older browsers
