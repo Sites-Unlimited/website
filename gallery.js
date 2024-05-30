@@ -1,5 +1,5 @@
 import {choc, set_content, on, DOM, fix_dialogs} from "https://rosuav.github.io/choc/factory.js";
-const {BLOCKQUOTE, BUTTON, DIALOG, DIV, FIGCAPTION, FIGURE, H2, H3, LI, P, SECTION, UL} = choc; //autoimport
+const {BLOCKQUOTE, BUTTON, DIALOG, DIV, FIGCAPTION, FIGURE, H2, LI, P, SECTION, UL} = choc; //autoimport
 
 let selected_item = 0;
 let selected_set = 0;
@@ -12,10 +12,7 @@ document.body.appendChild(DIALOG({id: "gallerydlg"}, [
   DIV({id: "dialog_header"}, [
     DIV([BUTTON({id: "prev"}, "previous"), BUTTON({id: "next"}, "next")]),
     BUTTON({type: "button", class: "dialog_cancel"}, 'x')]),
-  FIGURE([
     DIV({class: 'gallery-image'}),
-    FIGCAPTION()
-  ])
 ]));
 
 // Support for older browsers
@@ -53,9 +50,6 @@ function display_item(set, idx) {
   const item = galleries[sets[set]].photos[idx];
   console.log(item);
   DOM("#gallerydlg .gallery-image").replaceWith(gallery_image(item));
-  set_content("#gallerydlg figcaption", [
-    item.caption && item.caption,
-  ]);
 }
 
 const urlParams = new URLSearchParams(window.location.search);
