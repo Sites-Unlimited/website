@@ -9,6 +9,11 @@ photos:
 - caption: >-
     Floral Portfolio Image
   image:
+    url: images/portfolio/floral/DMA_4140.jpg
+    title: 'Floral Portfolio Image'
+- caption: >-
+    Floral Portfolio Image
+  image:
     url: images/portfolio/floral/DMA_4843.jpg
     title: 'Floral Portfolio Image'
 - caption: >-
@@ -24,17 +29,12 @@ photos:
 - caption: >-
     Floral Portfolio Image
   image:
+    url: images/portfolio/floral/DMA_8352.jpg
+    title: 'Floral Portfolio Image'
+- caption: >-
+    Floral Portfolio Image
+  image:
     url: images/portfolio/floral/DMA_9428-2.jpg
-    title: 'Floral Portfolio Image'
-- caption: >-
-    Floral Portfolio Image
-  image:
-    url: images/portfolio/floral/KN1A9598.jpg
-    title: 'Floral Portfolio Image'
-- caption: >-
-    Floral Portfolio Image
-  image:
-    url: images/portfolio/floral/KN1A9598.jpg
     title: 'Floral Portfolio Image'
 - caption: >-
     Floral Portfolio Image
