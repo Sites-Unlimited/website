@@ -78,9 +78,9 @@ on("click", "#prev", e => {
   do {
     if (item) --item; else {
       set = set ? set - 1 : sets.length - 1;
-      item = galleries[sets[set]].length - 1;
+      item = galleries[sets[set]].photos.length - 1;
     }
-    if (galleries[sets[set]][item].image) break;
+    if (galleries[sets[set]].photos[item].image) break;
   } while (item != selected_item || set !== selected_set);
 
   display_item(set, item);
@@ -90,11 +90,11 @@ on("click", "#prev", e => {
 on("click", "#next", e => {
   let set = selected_set, item = selected_item;
   do {
-    if (item < galleries[sets[set]].length - 1) ++item; else {
+    if (item < galleries[sets[set]].photos.length - 1) ++item; else {
       set = (set + 1) % sets.length;
       item = 0;
     }
-    if (galleries[sets[set]][item].image) break;
+    if (galleries[sets[set]].photos[item].image) break;
   } while (item != selected_item || set !== selected_set);
 
   display_item(set, item);
