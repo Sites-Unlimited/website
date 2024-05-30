@@ -43,12 +43,7 @@
   margin-inline-end: 0;
 }
 
-/* Close Button */
-.dialog_cancel {
-  position: relative;
-  right: -8px;
-  top: -8px;
-}
+
 
 #dialog_header {
   width: 100%;
@@ -156,6 +151,8 @@
   flex-direction: column;
   gap: 1em;
   position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 #slides_nav {
@@ -165,6 +162,18 @@
   top: 50%;
   left: 0;
   width: 100%;
+  opacity: 60%;
+}
+
+/* Close Button */
+#gallerydlg .dialog_cancel {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#slides_nav:hover {
+  opacity: 1;
 }
 
 #slides_nav button {
@@ -172,14 +181,15 @@
   background-color: var(--brand-primary);
   color: var(--white);
   border-radius: 50%;
-  height: 3em;
-  width: 3em;
+  height: 1.5em;
+  width: 1.5em;
+  font-size: 1em;
   border: none;
-  font-weight: heavy;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5em;
+  margin: 0 1em;
 }
 
 .wall-of-instant-fame .gallery-image {
@@ -208,6 +218,21 @@
   #gallerydlg figure {
     flex-direction: column;
   }
+
+  #slides_nav button {
+    cursor: pointer;
+    background-color: var(--brand-primary);
+    color: var(--white);
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    font-size: 1.2em;
+    border: none;
+    font-weight: heavy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -223,5 +248,20 @@
 
   #gallerydlg figure {
     flex-direction: row;
+  }
+
+  #slides_nav button {
+    cursor: pointer;
+    background-color: var(--brand-primary);
+    color: var(--white);
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    font-size: 1.5em;
+    border: none;
+    font-weight: heavy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
