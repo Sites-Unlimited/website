@@ -10,7 +10,7 @@ console.log(sets);
 
 document.body.appendChild(DIALOG({id: "gallerydlg"}, [
   DIV({id: "dlgcontent"}, [
-    DIV({id: "dialog_header"}, [BUTTON({type: "button", class: "dialog_cancel"}, 'x')]),
+    DIV({id: "dialog_header"}, [BUTTON({type: "button", class: "dialog_cancel", title: "close slideshow"}, 'x')]),
     DIV({id: "slides_nav"}, [BUTTON({id: "prev", title: "previous image"}, "<<"), BUTTON({id: "next", title: "next image"}, ">>")]),
     DIV({class: 'gallery-image'})]),
 ]));

@@ -169,6 +169,14 @@
   position: absolute;
   top: 0;
   right: 0;
+  background-color: var(--brand-primary);
+  color: var(--white);
+  border: none;
+}
+
+#gallerydlg .dialog_cancel:hover {
+  background-color: var(--brand-primary-light);
+  color: var(--brand-primary);
 }
 
 
@@ -191,7 +199,7 @@
 
 #slides_nav button:hover {
   opacity: 1;
-  transition: all 1s ease-out;
+  transition: all 0.6s ease;
 }
 
 .wall-of-instant-fame .gallery-image {
