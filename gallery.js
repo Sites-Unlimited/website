@@ -5,7 +5,7 @@ let selected_item = 0;
 let selected_set = 0;
 
 const sets = Object.keys(galleries);
-sets.sort((a, b) => a.localeCompare(b)); // sort for by category
+sets.sort((a, b) => galleries[a].sequence - galleries[b].sequence); // sort for by category
 console.log(sets);
 
 document.body.appendChild(DIALOG({id: "gallerydlg"}, [
