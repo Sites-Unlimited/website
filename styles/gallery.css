@@ -162,7 +162,6 @@
   top: 50%;
   left: 0;
   width: 100%;
-  opacity: 60%;
 }
 
 /* Close Button */
@@ -172,9 +171,6 @@
   right: 0;
 }
 
-#slides_nav:hover {
-  opacity: 1;
-}
 
 #slides_nav button {
   cursor: pointer;
@@ -190,6 +186,12 @@
   justify-content: center;
   align-items: center;
   margin: 0 1em;
+  opacity: 60%;
+}
+
+#slides_nav button:hover {
+  opacity: 1;
+  transition: all 1s ease-out;
 }
 
 .wall-of-instant-fame .gallery-image {
