@@ -147,8 +147,11 @@ header h3 {
   margin: 0;
 }
 
-.site-logo svg {
+.site-logo img {
   margin: auto;
+  max-width: 80%;
+  height: auto;
+  margin: 0.5em auto;
 }
 
 /* Nav */
@@ -188,7 +191,7 @@ i.closeIcon {
   right: 0;
   bottom: 0;
   z-index: 99;
-  background: var(--light);
+  background: var(--brand-primary);
   color: white;
   list-style: none;
   padding-top: 4rem;
@@ -303,7 +306,7 @@ figcaption {
 
 #hero blockquote {
   font-size: 1.5em;
-  background-color: #C2756Ccc;
+  background-color: #917093cc;
   padding: 0.3em;
   color: var(--white);
   margin: auto;
@@ -315,7 +318,7 @@ figcaption {
 
 
 .frontpage {
-  background: #999999 url("../images/Studio-Pano-noise-removed-scaled.jpg") no-repeat center center / cover;
+  background: #999999 url("../images/portfolio/landscape/KN1A9671.jpg") no-repeat center center / cover;
 }
 
 /* Responsive Grid */
@@ -332,7 +335,7 @@ section {
 }
 
 .col {
-  min-width: 400px;
+  min-width: 380px;
   max-width: 33%;
   /* Can specify additional sizes if needed */
 }
@@ -350,16 +353,6 @@ section {
 
 .thirty {
   width: 30%;
-}
-
-.owlonly.owlonly {
-  height: auto;
-  max-width: 160px;
-}
-
-.catonly.catonly {
-  height: auto;
-  max-width: 220px;
 }
 
 /* Media Queries */

@@ -25,7 +25,7 @@ category: full-width
       </div>
     </div>
     <div class="col">
-      <div class="card teal">
+      <div class="card light">
         <h2>Events</h2>
         <div class="body white">
         <p></p>
@@ -33,7 +33,7 @@ category: full-width
       </div>
     </div>
     <div class="col">
-      <div class="card azure">
+      <div class="card light">
         <h2>Testimonials</h2>
         <div class="body white">
           <blockquote>"Had such a great experience with Ric. He’s also good at cueing and posing you!"
