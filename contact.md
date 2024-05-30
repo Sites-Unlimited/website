@@ -6,4 +6,4 @@ category: full-width image-captions
 
 I'll be happy to hear from you any time… [rkindle2012@gmail.com](mailto:rkindle2012@gmail.com)
 
-Call or text me at ["tel:1+850-982-4466"](850 982-4466).
+Call or text me at [850 982-4466](tel:1+850-982-4466).
