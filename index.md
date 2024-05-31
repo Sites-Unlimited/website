@@ -20,21 +20,25 @@ category: full-width
     <div class="col">
       <div class="card light">
         <h2>Portraiture</h2>
+        <img class=heading src="images/portfolio/family_portraits/KN1A1361_sm.jpg">
         <div class="body white">
+        There's something poignant about the honor of participating in such a personal and at times vulnerable aspect of documenting a family's story.
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card light">
         <h2>Events</h2>
+        <img class=heading src="images/portfolio/events/starlinjumping_sm.jpg">
         <div class="body white">
-        <p></p>
+        Having been involved in event production and performance from many different angles informs a robust approach to the various comlexities and facets of event photography.
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card light">
         <h2>Testimonials</h2>
+        <img class=heading src="images/portfolio/themed_shoots/KN1A6453_sm.jpg">
         <div class="body white">
           <blockquote>"Had such a great experience with Ric. He’s also good at cueing and posing you!"
             <cite>Wendy Pereira</cite>
