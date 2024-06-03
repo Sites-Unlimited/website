@@ -1,12 +1,12 @@
 # Rates
 
-## One Hour Photo Shoot - $360 – 20 final images
+## One Hour Photo Shoot - $360 – 25 final images
 
 Most shoots take about an hour. We're not sticklers about going over a little bit. A group portrait or an artistic shoot is likely to fall into this category. Some themed shoots end up being multiple hours.
 
 Rates may vary depending on the location.
 
-## Mini Shoot – $150 – 10 final images
+## Mini Shoot – $150 – 15 final images
 
 Headshots or perhaps a very small group portrait generally fall into this category.
 
