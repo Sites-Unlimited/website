@@ -4,17 +4,20 @@ category: full-width image-captions
 <a id=about></a>
 # About
 
-Ric Kindle has been photographing for decades.
+As a Southern Illinois University Arts Major turned Florida native, I fell in love with the breath taking landscapes, how the sky meets the water, and ultimately the hearts of the people who drew me here.
 
-He will tell you that he truly "In-joys" being able to let Light shine through the subject. Whether it
-is a breath taking landscape or the Love shinning through a family portrait, both reflect Light equally.
+Over decades of coordinating events in the Pensacola and surrounding areas, photographing artists and musicians of all mediums became a passion.
 
-Sites Unlimited features a variety of photography and portraiture: artistic, biographical and utilitarian.
+In recent years, it has evolved into a profession, documenting a variety of family portraiture, nature scenery, school portraits, themed photo shoots, maternity, boudoir, events, and creativity beyond!
 
-Ric loves to collaborate with a subject or subjects, bringing the client's vision to life in what he terms, "themed shoots".
+I truly “In-joy" being able to witness Light shine through all subjects, clients, and experiences: artistic, biographical and utilitarian.
 
-Ric's work in boudoir is founded in the aim to capture Spiritual Sensuality and anatomical beauty in a natural setting.
+Living intentionally and loving boundlessly enable me to recognize the authentic essence of every moment.
 
-From nature, individual and family portraiture, school portraits, themed photo shoots, events and creative ideas, Ric is honored, pleased and excited to be considered to capture the Sites of your Life for you to Treasure throughput time!
+Reflecting these moments back into the lens of every individual client, they witness the realm of their own interpreted embodiment.
 
-We capture all the Sites because Art is unlimited!
+Memories imprinted forever in the hearts of those who seek to reminisce all things beautiful through the light of the lens, love shining through equally.
+
+My ultimate goal is to collaborate with others, bringing the client’s vision to life, allowing depths of detail to emerge. Simplicity of the photograph reflects the complexities of each moment, intertwining the love that clients share for themselves and others, enriching all that is "brought to light" in the lens through which we see.
+
+I am honored, pleased, and excited to be considered to capture the Sites of your Life for you to Treasure throughout time!
