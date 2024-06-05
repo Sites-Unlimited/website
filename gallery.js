@@ -26,20 +26,39 @@ function gallery_image(item) {
   return DIV({class: 'gallery-image', style: `background-image: url("${item.image.url}")`, title: title});
 }
 
+function non_boudoir(set) {
+  return [P(galleries[set].description),
+    DIV({class: "gallery_set"}, galleries[set].photos.map((item, idx) => item.image &&
+      DIV(
+        {"data-idx": idx, class: "gallery_entry"},
+        item.caption ? FIGURE([gallery_image(item), FIGCAPTION(item.caption)]) : gallery_image(item)
+      ))),
+    P(UL(galleries[set].photos.map((item, idx) => !item.image &&
+      LI([
+        item.notes && BLOCKQUOTE(item.notes),
+      ]))))];
+}
+
+function boudoir(set) {
+  return [P("Click the image below to visit to boudoir gallery, which is suitable for adults."),
+    DIV({class: "gallery_set"}, galleries[set].photos.filter((item) => item.image.url.endsWith("KN1A9047-2-2.jpg")).map((item, idx) => item.image &&
+      DIV(
+        {"data-idx": idx, class: "gallery_entry"},
+        item.caption ? FIGURE([gallery_image(item), FIGCAPTION(item.caption)]) : gallery_image(item)
+      ))),
+    P(UL(galleries[set].photos.map((item, idx) => !item.image &&
+      LI([
+        item.notes && BLOCKQUOTE(item.notes),
+      ]))))];
+}
+
+//if (!set === "boudoir") {
 {
   set_content("#gallery",
     sets.map((set, idx )=> galleries[set] && SECTION({'data-set': idx}, [
       H2(set.replace(/_/g, " ")),
-      P(galleries[set].description),
-      DIV({class: "gallery_set"}, galleries[set].photos.map((item, idx) => item.image &&
-        DIV(
-          {"data-idx": idx, class: "gallery_entry"},
-          item.caption ? FIGURE([gallery_image(item), FIGCAPTION(item.caption)]) : gallery_image(item)
-        ))),
-      P(UL(galleries[set].photos.map((item, idx) => !item.image &&
-        LI([
-          item.notes && BLOCKQUOTE(item.notes),
-        ]))))
+      (set !== "boudoir") && non_boudoir(set),
+      (set === "boudoir") && boudoir(set),
     ]))
   );
 }
