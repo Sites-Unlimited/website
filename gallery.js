@@ -40,7 +40,7 @@ function non_boudoir(set) {
 }
 
 function boudoir(set) {
-  return [P("Click the image below to visit to boudoir gallery, which is suitable for adults."),
+  return [P("Click the image below to view to boudoir gallery, which is suitable for adults."),
     DIV({class: "gallery_set"}, galleries[set].photos.filter((item) => item.image.url.endsWith("KN1A9047-2-2.jpg")).map((item, idx) => item.image &&
       DIV(
         {"data-idx": idx, class: "gallery_entry"},
@@ -90,7 +90,6 @@ on("click", "#prev", e => {
   let set = selected_set, item = selected_item;
   do {
     if (item) --item; else {
-      set = set ? set - 1 : sets.length - 1;
       item = galleries[sets[set]].photos.length - 1;
     }
     if (galleries[sets[set]].photos[item].image) break;
@@ -104,7 +103,6 @@ on("click", "#next", e => {
   let set = selected_set, item = selected_item;
   do {
     if (item < galleries[sets[set]].photos.length - 1) ++item; else {
-      set = (set + 1) % sets.length;
       item = 0;
     }
     if (galleries[sets[set]].photos[item].image) break;
