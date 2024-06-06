@@ -56,7 +56,7 @@ function boudoir(set) {
 {
   set_content("#gallery",
     sets.map((set, idx )=> galleries[set] && SECTION({'data-set': idx}, [
-      H2(set.replace(/_/g, " ")),
+      H2({id: set}, set.replace(/_/g, " ")),
       (set !== "boudoir") && non_boudoir(set),
       (set === "boudoir") && boudoir(set),
     ]))
