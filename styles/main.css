@@ -35,7 +35,7 @@ h5 {
 }
 
 .light {
-  background-color: var(--light);
+  background-color: var(--brand-primary-light);
 }
 
 .card.red {
@@ -63,7 +63,7 @@ h5 {
 }
 
 .card.light {
-  border: 2px solid var(--light);
+  border: 2px solid var(--brand-primary-light);
 }
 
 header,

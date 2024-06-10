@@ -22,7 +22,9 @@ category: full-width
         <h2>Portraiture</h2>
         <img class=heading src="images/portfolio/family_portraits/KN1A1361_sm.jpg">
         <div class="body white">
-        There's something poignant about the honor of participating in such a personal and at times vulnerable aspect of documenting a family's story.
+        There's something poignant about the honor of participating in such a personal and at times vulnerable aspect of documenting a family's story.<br>
+
+        Peruse some select event family portraits in the <a href="portfolio#family_portraits">portfolio</a>.
         </div>
       </div>
     </div>
@@ -31,7 +33,9 @@ category: full-width
         <h2>Events</h2>
         <img class=heading src="images/portfolio/events/starlinjumping_sm.jpg">
         <div class="body white">
-        Having been involved in event production and performance from many different angles informs a robust approach to the various comlexities and facets of event photography.
+        Having been involved in event production and performance from many different angles informs a robust approach to the various comlexities and facets of event photography.<br>
+
+        Peruse some select event shots in the <a href="portfolio#events">portfolio</a>.
         </div>
       </div>
     </div>
@@ -51,7 +55,7 @@ category: full-width
           <blockquote>"Ric has an eye for beauty. I felt comfortable and confident during our photo shoot. He had great suggestions for poses and I felt at ease knowing they were going to turn out beautiful, and they did."
             <cite>Laura Meyer </cite>
           </blockquote>
-          <a href="testimonials.html" style="text-align: right; display: block;">and more</a>
+          <a href="testimonials.html" style="text-align: right; display: block;">and more...</a>
         </div>
       </div>
     </div>
