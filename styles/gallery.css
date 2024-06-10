@@ -126,6 +126,11 @@
   font-size: 1em;
 }
 
+#gallery p {
+  max-width: 80%;
+  margin: auto;
+}
+
 .gallery-image div {
   border: 2px solid #999;
   padding: 2em;
