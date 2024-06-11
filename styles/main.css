@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: var(--white);
 }
 
 h1,
@@ -302,10 +303,12 @@ figcaption {
 
 /* Hero */
 #hero {
-  margin: 0;
+  margin: 0 -1em;
   height: 500px;
   padding: 0.2em;
   position: relative;
+  background: var(--white) url("../images/portfolio/landscape/KN1A9671.jpg") no-repeat bottom center;
+  background-size: cover;
 }
 
 #hero blockquote {
@@ -321,9 +324,6 @@ figcaption {
 }
 
 
-.frontpage {
-  background: #999999 url("../images/portfolio/landscape/KN1A9671.jpg") no-repeat bottom center / cover;
-}
 
 /* Responsive Grid */
 
@@ -364,7 +364,8 @@ section {
 }
 
 /* Media Queries */
-@media only screen and (min-width: 600px) {
+
+@media only screen and (min-width: 576px) {
   nav .menu {
     display: flex;
     list-style-type: none;
@@ -391,5 +392,36 @@ section {
 
   .hamburger {
     display: none;
+  }
+}
+
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+  #hero {
+    height: 550px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #hero {
+    height: 625px;
+  }
+}
+
+@media (min-width: 1350px) {
+  #hero {
+    height: 700px;
+    background-size: contain;
+    width: 1350px;
+    margin: auto;
+  }
+
+  #hero blockquote {
+    font-size: 2em;
+    padding: 0.5em;
+    bottom: 5%;
+    left: calc(50% - 350px);
   }
 }
