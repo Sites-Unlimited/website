@@ -19,23 +19,28 @@ category: full-width
   <div class="row">
     <div class="col">
       <div class="card light">
-        <h2>Portraiture</h2>
+        <h2>Portfolio</h2>
         <img class=heading src="images/portfolio/family_portraits/KN1A1361_sm.jpg">
-        <div class="body white">
-        There's something poignant about the honor of participating in such a personal and at times vulnerable aspect of documenting a family's story.<br>
-
-        Peruse some select event family portraits in the <a href="portfolio#family_portraits">portfolio</a>.
+        <div class="body white" markdown=true>
+        There's something poignant about the honor of participating in the documentation of a point in time. Click below to jump to a particular portfolio section, or just <a href="portfolio" title=portfolio>start at the top of the collection</a>.<br>
+        <ul>
+          <li><a href="portfolio#family_portraits">Family Portraits</a></li>
+          <li><a href="portfolio#events">Events</a></li>
+          <li><a href="portfolio#floral">Floral</a></li>
+          <li><a href="portfolio#themed_shoots">Themed Shoots</a></li>
+          <li><a href="portfolio#landscape">Landscape</a></li>
+          <li><a href="portfolio#school_portrait">School Portrait</a></li>
+          <li><a href="portfolio#boudoir">Boudoir</a></li>
+        </ul>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card light">
-        <h2>Events</h2>
+        <h2>Ric Kindle</h2>
         <img class=heading src="images/portfolio/events/starlinjumping_sm.jpg">
         <div class="body white">
-        Having been involved in event production and performance from many different angles informs a robust approach to the various comlexities and facets of event photography.<br>
-
-        Peruse some select event shots in the <a href="portfolio#events">portfolio</a>.
+        Coming soon... <a href="about">more...</a>.
         </div>
       </div>
     </div>

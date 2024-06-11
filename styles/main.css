@@ -66,6 +66,10 @@ h5 {
   border: 2px solid var(--brand-primary-light);
 }
 
+.card ul {
+  list-style-type: none;
+}
+
 header,
 footer {
   background-color: var(--brand-primary);
