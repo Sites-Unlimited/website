@@ -128,7 +128,7 @@
 
 #gallery p {
   max-width: 80%;
-  margin: auto;
+  margin: 1em auto;
 }
 
 .gallery-image div {

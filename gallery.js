@@ -1,5 +1,5 @@
 import {choc, set_content, on, DOM, fix_dialogs} from "https://rosuav.github.io/choc/factory.js";
-const {BLOCKQUOTE, BUTTON, DIALOG, DIV, FIGCAPTION, FIGURE, H2, LI, P, SECTION, UL} = choc; //autoimport
+const {BLOCKQUOTE, BUTTON, DIALOG, DIV, FIGCAPTION, FIGURE, H2, H4, LI, P, SECTION, UL} = choc; //autoimport
 
 let selected_item = 0;
 let selected_set = 0;
@@ -40,7 +40,7 @@ function non_boudoir(set) {
 }
 
 function boudoir(set) {
-  return [P("Click the image below to view to boudoir gallery, which is suitable for adults."),
+  return [P("There comes a moment in time when every individual deserves to embrace their own divine feminine/masculine essence. Sacred sensual embodiment is at the core of reprogramming fear, shame, guilt, lack of worth, scarcity, and repressed aspects of oneself due to trauma or societal norms. Boudoir shoots are but one way to explore liberation & change the story paradigm of how one has perceived themselves simultaneously.  Whether it is to share the gift of your essence with someone dear to your heart or to document an expression of self-love, you're invited to harness your authentic  expression of sacred power within in a setting most comfortable for you."), H4("(Click the image below to view to boudoir gallery, which is suitable for adults.)"),
     DIV({class: "gallery_set"}, galleries[set].photos.filter((item) => item.image.url.endsWith("KN1A9047-2-2.jpg")).map((item, idx) => item.image &&
       DIV(
         {"data-idx": idx, class: "gallery_entry"},
