@@ -38,9 +38,9 @@ category: full-width
     <div class="col">
       <div class="card light">
         <h2>Ric Kindle</h2>
-        <img class=heading src="images/portfolio/events/starlinjumping_sm.jpg">
+        <img class=heading src="images/RicBubbling.jpg">
         <div class="body white">
-        Coming soon... <a href="about">more...</a>.
+        As a Southern Illinois University Arts Major turned Florida native, I fell in love with the breath taking landscapes, how the sky meets the water, and ultimately the hearts of the people <a href="about">more...</a>.
         </div>
       </div>
     </div>
